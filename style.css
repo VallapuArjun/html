@@ -1,0 +1,13 @@
+*{
+    padding: auto;
+}
+header{
+    color: aqua;
+}
+body{
+    background-color: aqua;
+}
+image{
+    flex: 2px;
+    border: 2px;
+}
