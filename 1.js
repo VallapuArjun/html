@@ -1,9 +1,7 @@
-const uplodeImg = document.getElementById("upload-Img");
-const uplodedInput = document.getElementById("upload-Input");
-
-uplodedInput.addEventListener("change",function(e)
-{
-const file=e.target.files[0];
-uplodeImg.src=URL.createObjectURL();
-
-})
+const product={
+    title:"ball pen",
+    rating:4,
+    offer:5,
+    price:270,
+};
+console.log(product);
