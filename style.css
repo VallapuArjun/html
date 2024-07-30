@@ -1,13 +1,50 @@
-*{
-    padding: auto;
+body {
+    background-color: lightblue;
+    background-image: url(https://www.shutterstock.com/image-photo/waves-ocean-600nw-1483737851.jpg);
+    /*no background repeat image*/
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 550px;
+    /*background image moves to right*/
+    background-position:right;
+    margin-right: 200px;
+    
+    background-attachment: scroll;
 }
-header{
-    color: aqua;
+navbar{
+    background-color: black;
+    
+    
 }
-body{
-    background-color: aqua;
+.nav{
+    padding: 2px;;
+    background-color: rgb(234, 22, 22);
+    
 }
-image{
-    flex: 2px;
-    border: 2px;
+a{
+    padding: right 200px;
+    
+}
+h1 {
+    color: white;
+    text-align: center;
+    border: 10px solid goldenrod;
+    margin-left: 10px;
+
+}
+  
+p {
+    font-family: verdana;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color:red;
 }
